@@ -1,0 +1,46 @@
+:root {
+    --body-height: 100vh;
+}
+
+body {
+    min-height: var(--body-height);
+    width: 100vw;
+}
+
+body > div:first-child {
+    width: 33%;
+    min-height: var(--body-height);
+    background-image: url("food.jpg");
+    background-size: 130%;
+    position: relative;
+}
+
+#banner {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 20%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner > img {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+#credit {
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+#credit > a {
+    color: white;
+}
