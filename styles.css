@@ -71,6 +71,7 @@ fieldset {
     background-color: white;
     width: 90%;
     padding: 2.5% 5% 2.5% 5%;
+    box-shadow: 0px 10px 8px -3px rgba(0,0,0,0.25);
 }
 
 h1 {
@@ -110,6 +111,7 @@ input {
 input:focus {
     outline: none;
     border: solid blue 2px;
+    box-shadow: 5px 5px 11px -3px rgba(0,0,0,0.41);
 }
 
 input:invalid {
@@ -125,6 +127,8 @@ button {
     padding: 1.5% 4% 1.5% 4%;
     font-size: 1.5rem;
     font-weight: 600;
+    box-shadow: 6px 10px 8px -3px rgba(0,0,0,0.19);
+    cursor: pointer;
 }
 
 body > div:last-child > p:last-of-type {
