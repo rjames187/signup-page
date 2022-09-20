@@ -3,6 +3,10 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.hidden {
+    display: none;
+}
+
 em {
     font-style: italic;
 }
@@ -116,6 +120,15 @@ input:focus {
 
 input:invalid {
     border: solid red 2px;
+}
+
+input.invalid {
+    border: solid red 2px;
+}
+
+#pass-error {
+    color: red;
+    font-size: .8rem;
 }
 
 button {
